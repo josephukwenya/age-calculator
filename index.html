@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="text-dark">
+  <header class="bg-primary text-center mb-5 p-3">
+    <h1>MY AGE CALCULATOR</h1>
+  </header>
+  <div class="container border bg-secondary text-center">
+    <!-- Calculate Age -->
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <p class="lead text-white"><marquee behavior="alternate" direction="">DEVELOPED BY JOSEPH UKWENYA</marquee></p>
+        <h4 id="current-word" class="display-5 text-dark">Calculate Age</h4><br>
+        <input type="number" class="form-control form-control-lg" placeholder="Please enter your birth year to calculate your age..." id="year" auto-focus><br>
+        <input type="submit" class="form-control bg-primary text-white form-control-lg" id="btn1" auto-focus>
+        <h4 id="message" ></h4>
+
+          <!-- Get Birth Year -->
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <h4 id="current-word" class="display-5 text-dark">My birth year?</h4><br>
+        <input type="number" class="form-control form-control-lg" id="age" placeholder="Please enter your age to know your birth year..." id="text-input" auto-focus><br>
+        <input type="submit" class="form-control bg-primary text-white form-control-lg" id="btn2" auto-focus>
+        <h4 id="message" ></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
